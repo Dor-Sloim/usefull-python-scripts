@@ -1,6 +1,6 @@
 """
     Downloads a youtube video converted to .mp4
-    And opens in media player player.
+    And opens in media player.
 
     Setup:
         pip install pytube3
