@@ -16,13 +16,9 @@ from discord.ext.commands import CommandNotFound, CommandInvokeError
 from dotenv import load_dotenv
 
 load_dotenv()
-"""
-    'TOKEN' and 'SERVER_ID_KRU' are loaded
-    from '.env' file in classpath.
-    
-"""
+
+# 'TOKEN' is loaded from '.env' file in classpath.
 TOKEN = os.getenv('DISCORD_TOKEN')
-SERVER_ID_KRU = os.getenv('SERVER_ID_KRU')
 
 bot = commands.Bot(command_prefix='~')
 
